@@ -1,0 +1,8 @@
+#
+# PageTS for HeinzRitter / Vialia
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:gsheinzrittervialia/Configuration/PageTS/Mod" extensions="txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">

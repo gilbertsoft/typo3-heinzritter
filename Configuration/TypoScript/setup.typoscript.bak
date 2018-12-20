@@ -1,0 +1,47 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsfavicon/Configuration/TypoScript/setup.typoscript">
+
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:zwergenfabrik/Configuration/TypoScript/Setup" extensions="typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSSLibs {
+        #googlewebfont >
+    }
+
+    includeCSS {
+        theme = EXT:gsheinzrittervialia/Resources/Public/Css/theme.min.css
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        #gsheinzrittervialia_scripts = EXT:gsheinzrittervialia/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
+
+#config.debug = 1
+#config.spamProtectEmailAddresses = ascii
+config.spamProtectEmailAddresses = -1
+config.spamProtectEmailAddresses_atSubst = (at)
+config.spamProtectEmailAddresses_lastDotSubst = (dot)
+#config.additionalHeaders = Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'
+
+config.language = de
+config.locale_all = de_CH.UTF-8
+config.htmlTag_setParams = lang="de" dir="ltr" class="no-js"

@@ -1,0 +1,44 @@
+#############
+#### RTE ####
+#############
+RTE {
+    config {
+        tt_content {
+            bodytext {
+                types {
+                    text {
+                        preset = gsheinzrittervialia
+                    }
+                    textcolumn {
+                        preset = gsheinzrittervialia
+                    }
+                    texticon {
+                        preset = gsheinzrittervialia
+                    }
+                    textmedia {
+                        preset = gsheinzrittervialia
+                    }
+                    textpic {
+                        preset = gsheinzrittervialia
+                    }
+                    textteaser {
+                        preset = gsheinzrittervialia
+                    }
+                    panel {
+                        preset = gsheinzrittervialia
+                    }
+                }
+            }
+        }
+        tx_bootstrappackage_accordion_item {
+            bodytext {
+                preset = gsheinzrittervialia
+            }
+        }
+        tx_bootstrappackage_tab_item {
+            bodytext {
+                preset = gsheinzrittervialia
+            }
+        }
+    }
+}

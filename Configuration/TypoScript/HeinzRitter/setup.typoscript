@@ -1,0 +1,4 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/TypoScript/setup.typoscript">

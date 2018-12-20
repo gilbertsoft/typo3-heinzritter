@@ -1,0 +1,81 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsheinzrittervialia/Configuration/TypoScript/constants.typoscript">
+
+
+##############
+### CONFIG ###
+##############
+config.headerComment = Powered by Gilbertsoft - https://gilbertsoft.com
+styles.content.loginform.pid = 2
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:gsheinzrittervialia/Resources/Public/Images/HeinzRitter/logo.png
+        fileInverted = EXT:gsheinzrittervialia/Resources/Public/Images/HeinzRitter/logo.png
+        height = 52
+        width = 192
+        alt = Heinz Ritter AG
+        linktitle = Heinz Ritter AG
+    }
+    favicon {
+        file = EXT:gsheinzrittervialia/Resources/Public/Icons/HeinzRitter/favicon.ico
+    }
+#    fluidtemplate {
+#        layoutRootPath = EXT:gsheinzrittervialia/Resources/Private/Layouts/Page/
+#        partialRootPath = EXT:gsheinzrittervialia/Resources/Private/Partials/Page/
+#        templateRootPath = EXT:gsheinzrittervialia/Resources/Private/Templates/Page/
+#    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+#plugin.bootstrap_package {
+#    view {
+#        layoutRootPath = EXT:gsheinzrittervialia/Resources/Private/Layouts/
+#        partialRootPath = EXT:gsheinzrittervialia/Resources/Private/Partials/
+#        templateRootPath = EXT:gsheinzrittervialia/Resources/Private/Templates/
+#    }
+#}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+#plugin.bootstrap_package_contentelements {
+#    view {
+#        layoutRootPath = EXT:gsheinzrittervialia/Resources/Private/Layouts/ContentElements/
+#        partialRootPath = EXT:gsheinzrittervialia/Resources/Private/Partials/ContentElements/
+#        templateRootPath = EXT:gsheinzrittervialia/Resources/Private/Templates/ContentElements/
+#    }
+#}
+
+
+#######################################
+### REMOVE BOOTSTRAP LESS CONSTANTS ###
+#######################################
+#plugin.bootstrap_package.settings.less >
+#plugin.bootstrap_package.settings.overrideLessVariables >
+
+
+
+[treeLevel = 0]
+page.theme.navigationstyle = default-transition
+page.theme.navigationtype = top
+[end]
+plugin.bootstrap_package.settings.less.brand-primary = #10a0cb
+page.theme.copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://github.com/benjaminkott/bootstrap_package" target="_blank">Bootstrap Package</a>.
+page.theme.meta.enable = 0
+#page.logo.file = fileadmin/introduction/images/introduction-package.svg
+#page.logo.fileInverted = fileadmin/introduction/images/introduction-package-inverted.svg
+plugin.bootstrap_package.settings.less.section-primary-link-color = #ff8
+plugin.bootstrap_package_contentelements.menu_thumbnail.media.height = 170m
+plugin.bootstrap_package_contentelements.menu_thumbnail.media.width = 170
+styles.content.loginform.pid = 2
